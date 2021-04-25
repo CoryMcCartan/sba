@@ -1,0 +1,16 @@
+Package: sba
+Title: Simple Bayesian Analyses
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Cory",
+           family = "McCartan",
+           role = c("aut", "cre"),
+           email = "cmccartan@g.harvard.edu",
+           comment = c(ORCID = "https://orcid.org/0000-0002-6251-669X"))
+Description: Provides a wrapper function, bayes(), to turn simple ordinary 
+    analyses like regressions into Bayesian analyses.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
