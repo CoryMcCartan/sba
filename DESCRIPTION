@@ -7,8 +7,8 @@ Authors@R:
            role = c("aut", "cre"),
            email = "cmccartan@g.harvard.edu",
            comment = c(ORCID = "https://orcid.org/0000-0002-6251-669X"))
-Description: Provides a wrapper function, bayes(), to turn simple ordinary 
-    analyses like regressions into Bayesian analyses.
+Description: Provides Bayesian analogues of common simple analyses like 
+    linear regression and proportion testing.
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true

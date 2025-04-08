@@ -19,8 +19,10 @@ knitr::opts_chunk$set(
   [![R-CMD-check](https://github.com/CoryMcCartan/sba/workflows/R-CMD-check/badge.svg)](https://github.com/CoryMcCartan/sba/actions)
 <!-- badges: end -->
 
-The **sba** package provides a wrapper function, `bayes()`, to turn simple
-ordinary analyses like regressions into Bayesian analyses.
+The **sba** package provides Bayesian analogues of common simple analyses like
+linear regression and proportion testing. It does so through two interfaces:
+one which prefixes common analysis functions with `bayes_`, and one through
+a `bayes()` wrapper function which modifies an existing analysis pipeline.
 
 ## Installation
 
